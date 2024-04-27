@@ -1,0 +1,50 @@
+{
+    "default_lr_parameters" : {
+        "penalty": "l2",
+        "dual": false,
+        "tol": 0.0001,
+        "C": 1.0,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "class_weight": null,
+        "random_state": null,
+        "solver": "lbfgs",
+        "max_iter": 100,
+        "multi_class": "auto",
+        "verbose": 0,
+        "warm_start": false,
+        "n_jobs": null,
+        "l1_ratio": null
+    },
+    "default_svm_parameters" : {
+        "C": 1.0,
+        "kernel": "rbf",
+        "degree": 3,
+        "gamma": "scale",
+        "coef0": 0.0,
+        "shrinking": true,
+        "probability": false,
+        "tol": 0.001,
+        "cache_size": 200,
+        "class_weight": null,
+        "verbose": false,
+        "max_iter": -1,
+        "decision_function_shape": "ovr",
+        "break_ties": false,
+        "random_state": null
+    },
+    "default_decision_tree_parameters" : {
+        "criterion": "gini",
+        "splitter": "best",
+        "max_depth": null,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "min_weight_fraction_leaf": 0.0,
+        "max_features": null,
+        "random_state": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "class_weight": null,
+        "ccp_alpha": 0.0
+    }
+}

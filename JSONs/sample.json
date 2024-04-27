@@ -1,0 +1,11 @@
+{
+  "filename": "churn.csv",
+  "model_name": "svm",
+  "param": {
+    "C": 10,
+    "kernel": "linear"
+  },
+  "target_variable": "Exited",
+  "split": 0.3,
+  "flag": 0
+}
