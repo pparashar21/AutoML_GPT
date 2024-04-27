@@ -24,6 +24,7 @@ This project aims to simplify the process of machine learning model creation, tr
 <img width="741" alt="pic6" src="https://github.com/pparashar21/AutoML_GPT/assets/103917169/a3dae713-4d89-436e-9b52-b8e0362786d1">
 
 #### Usage:
+- Add the datasets you want to run the model on in the "datasets" folder. Please note, this project will not perform any type of data preprocessing, only model training and evaluation.
 - Once the script is running, an input box will prompt you to enter your question or command.
 - Type your queries about machine learning models, parameters, dataset details, or any other related topic.
 - Follow the prompts provided by the chatbot to specify model configurations, perform training and evaluation, and analyze results.
