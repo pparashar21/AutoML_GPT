@@ -1,0 +1,15 @@
+.env
+
+.ipynb_checkpoints
+
+.datasets
+.datasets/
+
+.JSONs
+.JSONs/
+
+.Model_documents
+.Model_documents/
+
+__pycache__
+__pycache__/*

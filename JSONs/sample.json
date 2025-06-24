@@ -1,11 +1,8 @@
 {
   "filename": "churn.csv",
-  "model_name": "svm",
-  "param": {
-    "C": 10,
-    "kernel": "linear"
-  },
+  "model_name": "decision_tree",
+  "param": {},
   "target_variable": "Exited",
-  "split": 0.3,
+  "split": 0.2,
   "flag": 0
 }
