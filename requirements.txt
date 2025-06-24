@@ -1,0 +1,22 @@
+# Data science stack 
+pandas==1.5.3
+numpy==1.25.2
+scikit-learn==1.2.2
+seaborn==0.13.2
+
+# Vector DB & LLM tooling (pre-split) 
+qdrant-client==1.11.1      
+langchain==0.0.208         
+openai==0.28.0             
+fastembed==0.4.1                
+
+# Web front-ends 
+flask==2.3.3
+streamlit==1.31.1
+
+# Helpers / UI 
+python-dotenv==1.0.1
+ipywidgets==8.1.1
+ipython==8.20.0
+requests==2.31.0  
+ipykernel   
