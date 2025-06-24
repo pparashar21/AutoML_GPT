@@ -2,6 +2,7 @@
 OPENAI_MODEL_VERSION:str = "gpt-4o-mini"
 OPENAI_TEMPERATURE:float = 0.2
 OPENAI_MAX_TOKENS:int = 2000
+OPENAI_TOP_P:float = 0.6
 
 # Defining constants for our knowledge base
 MODEL_DOCS_DIR:str = "Model_documents"

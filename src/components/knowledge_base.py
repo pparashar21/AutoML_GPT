@@ -18,7 +18,7 @@ client = QdrantClient(":memory:")
 OPENAI_API_KEY: str | None = os.getenv("OPEN_AI_API")
 
 #Defining our LLM configuration 
-llm = OpenAI(model_name = OPENAI_MODEL_VERSION, temperature=OPENAI_TEMPERATURE, max_tokens=OPENAI_MAX_TOKENS, openai_api_key=OPENAI_API_KEY)
+llm = OpenAI(model_name = OPENAI_MODEL_VERSION, temperature=OPENAI_TEMPERATURE, max_tokens=OPENAI_MAX_TOKENS, top_p=OPENAI_TOP_P, openai_api_key=OPENAI_API_KEY)
 
 def load_docs():
     # directory = MODEL_DOCS_DIR
