@@ -2,7 +2,7 @@
 Streamlit front-end for the AutoML-GPT chatbot.
 
 Run with:
-    streamlit run src/components/app.py
+    streamlit run app.py
 """
 
 from __future__ import annotations

@@ -45,7 +45,7 @@ def ask(query: str) -> str:
     if query.lower() == "exit":
         return "Thank you for using the State of the Union chatbot!"
 
-    # first turn → bootstrap knowledge base
+    # load knowledge base
     if not chat_history:
         chat_history.append((query, "…loading docs…"))
         load_docs()

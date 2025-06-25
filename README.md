@@ -24,8 +24,27 @@ This project aims to simplify the process of machine learning model creation, tr
 <img width="741" alt="pic6" src="https://github.com/pparashar21/AutoML_GPT/assets/103917169/a3dae713-4d89-436e-9b52-b8e0362786d1">
 
 #### Usage:
+- Clone the github into your local system using : \
+`git clone https://github.com/pparashar21/AutoML_GPT.git`
 - Add the datasets you want to run the model on in the "datasets" folder. Please note, this project will not perform any type of data preprocessing, only model training and evaluation.
-- Once the script is running, an input box will prompt you to enter your question or command.
+- To run the application locally: 
+    - Create a new conda environment to use only the requied libraries and their versions: \
+    `conda create -n automl python=3.10 -y`
+    - Activate the conda environment: \
+    `conda activate automl`
+    - Install all the required dependencies: \
+    `pip install -r requirements.txt `
+    - Add an .env file in the directory and add your Open AI API key like:
+    `OPEN_AI_API="YOUR_KEY_GOES_HERE"`
+    - To launch the streamlit app:
+    `streamlit run app.py`
+
+- To run the application using Docker
+    - Make sure you have Docker Daemon installed if not please refer to : https://docs.docker.com/get-started/get-docker/ 
+    - Go to the project root and build the docker image using : \
+    `docker build -t automl_gpt .`
+    - To run the docker image, use: \
+    `docker run -p 8501:8501 \ -e OPENAI_API_KEY="ADD YOUR OPENAI_API KEY HERE" \ automl_gpt`
 - Type your queries about machine learning models, parameters, dataset details, or any other related topic.
 - Follow the prompts provided by the chatbot to specify model configurations, perform training and evaluation, and analyze results.
 - To exit the chatbot, type 'exit'.
